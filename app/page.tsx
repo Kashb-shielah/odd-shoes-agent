@@ -5,7 +5,7 @@ import { useState, useRef, useEffect, FormEvent } from "react";
 import { Send, Bot, User, Sparkles, ArrowRight } from "lucide-react";
 import ReactMarkdown from "react-markdown";
 
-const PROJECT_PLANNER_URL = "/project-planner";
+const PROJECT_PLANNER_URL = "https://oddshoes.dev";
 
 const STARTER_PROMPTS = [
   "What services does Odd Shoes offer?",

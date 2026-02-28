@@ -31,7 +31,7 @@ export default function ProjectPlanner() {
   const handleChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
-    >
+    >,
   ) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
@@ -85,9 +85,7 @@ export default function ProjectPlanner() {
               <h1 className="text-lg font-semibold leading-tight text-gray-900">
                 Project Planner
               </h1>
-              <p className="text-xs text-gray-500">
-                Tell us about your vision
-              </p>
+              <p className="text-xs text-gray-500">Tell us about your vision</p>
             </div>
           </div>
           <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-gray-900">
@@ -104,8 +102,8 @@ export default function ProjectPlanner() {
               Let&apos;s Build Something Great
             </h2>
             <p className="mt-1 text-sm text-gray-500">
-              Fill out the details below and our team will get back to you with a
-              tailored plan. Every project is unique — and so is our approach.
+              Fill out the details below and our team will get back to you with
+              a tailored plan. Every project is unique — and so is our approach.
             </p>
           </div>
 
